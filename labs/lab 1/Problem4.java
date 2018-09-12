@@ -10,7 +10,7 @@ public class Problem4 {
 		System.out.print("Enter the mass:");
 		double mass = input.nextDouble();
 		double light = 299972458;
-		double energy= mass*light;
+		double energy= mass*light; // JA: light squared
 		System.out.println("The calculated energy is :" + energy+  " joules .");
 	}
 
