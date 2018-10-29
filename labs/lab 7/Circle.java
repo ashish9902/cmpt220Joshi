@@ -24,6 +24,7 @@ public class Circle extends Geom {
     public boolean coordContains(double x2, double y2) {
         return (x-x2) * (x-x2) + (y-y2) * (y-y2) < radius * radius;
  }
+	// JA: What about the other contains?
     public boolean circleContains(Circle circle) {
         x2 = 4.0;
         y2 = 5.0;
