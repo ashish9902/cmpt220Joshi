@@ -10,7 +10,7 @@ public class Checking extends Account {
 
 	@Override
 	public void withdraw(double amount)
-	{
+	{ // JA: The overdraft works the other way. You can go negative to that amount.
 	if(balance - amount <= OVERDRAFTLIMIT)
 	{
 	System.out.println("Sorry!!! Your balance cannot goes below " + OVERDRAFTLIMIT);
